@@ -6,9 +6,9 @@ spring:
     name: fraud
 
   datasource:
-    url: jdbc:mysql://root:IQfrmQjCgZGZlkHCbRhUgoQviNOJdCdk@tramway.proxy.rlwy.net:38865/railway
+    url: jdbc:mysql://localhost:3306/fraud?createDatabaseIfNotExist=true
     username: root
-    password: IQfrmQjCgZGZlkHCbRhUgoQviNOJdCdk
+    password: AZERTY123456@
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
@@ -20,7 +20,7 @@ spring:
         format_sql: true
     show-sql: true
 
-#eureka:
- # client:
-  #  service-url:
-   #   defaultZone: http://localhost:8761/eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
