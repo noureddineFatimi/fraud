@@ -6,9 +6,9 @@ spring:
     name: fraud
 
   datasource:
-    url: jdbc:mysql://localhost:3306/fraud?createDatabaseIfNotExist=true
+    url: jdbc:mysql://root:jjIDswBSdjZolXhPLYeSEnfoYJAddvmW@yamanote.proxy.rlwy.net:59352/railway?createDatabaseIfNotExist=true
     username: root
-    password: AZERTY123456@
+    password: jjIDswBSdjZolXhPLYeSEnfoYJAddvmW
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
